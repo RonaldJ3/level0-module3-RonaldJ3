@@ -15,10 +15,13 @@ if __name__ == '__main__':
 
     if a == 'left' :
         b = simpledialog.askstring('second choice', "You start to head done the left path. a little later you hear rocks falling back were you first came from. Will you go back and see what happened or countine down the ever so slightly brighter tunnel?")
-    elif b == 'back' :
-        c = simpledialog.askstring('last choice', "after walking for a undetermined amount of time you start to feel tired and hungry. you think about sitting down and resting maybe even taking a nap. Will you rest or continue walking?")
-    elif c == 'continue' :
-                simpledialog.SimpleDialog('final', "you start to see some light. as the light gets closer you increase your speed. until you finaly get out of the cave you look around and notice a helicopter. you try to call for help but your voice fails and you collapse to the ground never to wake up again.")
+        if b == 'continue' :
+            c = simpledialog.askstring('last choice', "after walking for a undetermined amount of time you start to feel tired and hungry. you think about sitting down and resting maybe even taking a nap. Will you rest or continue walking?")
+        if c == 'continue' :
+            simpledialog.SimpleDialog('final', "you start to see some light. as the light gets closer you increase your speed. until you finaly get out of the cave you look around and notice a helicopter. you try to call for help but your voice fails and you collapse to the ground never to wake up again.")
     elif a == 'right' :
         d == simpledialog.askstring('second choice', "you slowly climb up the steep slope when you hear a faint rumble and look back to see the cave collapesing behind you start climbing as fast as you can. Sadly the rocks catch up with you and you are buried alive. will you try to dig your way out or stay still and wait for someone to save you?")
-    elif d == 'stay'
+        if d == 'stay' :
+            d == simpledialog.askstring('final', "you wait in place and graduly fall asleep. you wake up to a sudden noise and a bright light. Someone yells I found one and you see more and more light. until your eyes final adjust and your hosited out the rubble. you look around and ask were am I. A woman aproaches you and explains everything that happened to you.")
+        if d == 'continue' :
+            d == simpledialog('final',"you kept digging till your hands turned raw and you finally saw some light. you call out for help and hear faint voices in the distance you keep calling help help. finally you see someone aproaching when all of a sudden more rocks start to fall you. scream HURRY! but the ppl seemed to have turned around and started to run. you despratly look at there backs until a rock falls crushing you.")
