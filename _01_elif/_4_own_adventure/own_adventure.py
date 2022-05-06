@@ -21,7 +21,7 @@ if __name__ == '__main__':
            e = simpledialog.askstring('final', "you start walking back and the ceiling suddenly shakes. Ignoring the noise and slightly moving ground you keep walking twoards the place you were orignlly at. you finally see your starting point and notice the right tunnel caved in. glad you didn't try climbiming up that path. You turn and start walking back down the left tunnel. not long after the celing suddenly collapse above your head.")
         if c == 'rest' :
             simpledialog.SimpleDialog('final', "you sit down and take a break. After who knows how long you wake up to see s bright light. Once your eyes adjust you see a group of 5 men standing over you with ropes and the like. You weakly ask What took you so long?")
-        if c == 'c' :aaaaaa
+        if c == 'c' :
             simpledialog.SimpleDialog('final', "you start to see some light. as the light gets closer you increase your speed. until you finaly get out of the cave you look around and notice a helicopter. you try to call for help but your voice fails and you collapse to the ground never to wake up again.")
     elif a == 'right' :
         d = simpledialog.askstring('second choice', "you slowly climb up the steep slope when you hear a faint rumble and look back to see the cave collapesing behind you start climbing as fast as you can. Sadly the rocks catch up with you and you are buried alive. will you try to dig your way out or stay still and wait for someone to save you?")
