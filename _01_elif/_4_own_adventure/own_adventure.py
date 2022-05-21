@@ -28,5 +28,4 @@ if __name__ == '__main__':
         if d == 'stay' :
             d == simpledialog.askstring('final', "you wait in place and slowly fall asleep. you wake up to a sudden noise and a bright light. Someone yells I found one and you see more and more light. until your eyes final adjust and your hosited out the rubble. you look around and ask were am I. A woman aproaches you and explains everything that happened to you.")
         if d == 'dig' :
-
             d == simpledialog('final',"you kept digging till your hands go numb and you finally saw some light. you call out for help a2and hear faint voices in the distance you keep calling help help. finally you see someone aproaching when all of a sudden more rocks start to fall. you scream HURRY! but the ppl seemed to have turned around and started to run. you despratly look at there backs until a rock falls crushing you.")
